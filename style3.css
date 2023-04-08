@@ -1,0 +1,93 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+.imagescontainer{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    
+
+
+}
+
+
+.gh{
+
+   
+    text-align: center;
+    margin-bottom: 60px;
+    background: #ff4d4d ;
+    padding: 20px;
+
+
+}
+.gh h1{
+    color: #fff;
+}
+.imagescontainer img{
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.gh h1{
+    text-align: center;
+}
+
+body{
+    background-color:#ff4d4d ;
+}
+ 
+.imagecontainer2{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+
+.imagecontainer2 img{
+ 
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.imagecontainer3{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;   
+}
+
+.imagecontainer3 img{
+    
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.gh button {
+
+    
+
+
+    background-color: gold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.gh button:hover {
+    background-color: #ff4d4d;
+  }
